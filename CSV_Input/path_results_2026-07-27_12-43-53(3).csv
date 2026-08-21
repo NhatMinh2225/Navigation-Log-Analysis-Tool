@@ -1,0 +1,18 @@
+﻿PlaythroughID,RecordType,CompletionStatus,Order,Name,FromNode,FromNodeEnterTimestamp,ToNode,ToNodeEnterTimestamp,Weight,TravelTime,DecisionTime,DecisionEnterTimestamp,DecisionExitTimestamp,ToDecisionNodeAndEnd,ExitEnterTimestamp,FinalTotalWeight,FinalTravelTime,FinalDecisionTime
+1,Path,Completed,1,2001,S1,2026-07-27 12:44:20.589,L1_0,2026-07-27 12:45:05.580,6.000,45.000,,,,Blue L1_0,,,,
+1,Path,Completed,2,7002,L1_0,2026-07-27 12:45:44.827,L2_3,2026-07-27 12:46:32.066,6.000,47.240,,,,Blue L2_3,,,,
+1,Path,Completed,3,2003,L2_3,2026-07-27 12:46:40.365,E0,2026-07-27 12:46:59.605,4.000,19.240,,,,Red E0,2026-07-27 12:46:59.826,,,
+1,Decision,Completed,1,Blue L1_0,,,,,,,11.820,2026-07-27 12:45:33.008,2026-07-27 12:45:44.827,,,,,
+1,Decision,Completed,2,Blue L2_3,,,,,,,8.040,2026-07-27 12:46:32.332,2026-07-27 12:46:40.365,,,,,
+1,Summary,Completed,,,,,,,,,,,,,,0.000,111.480,19.860
+2,Path,Completed,1,3001,S1,2026-07-27 12:47:16.014,L1_1,2026-07-27 12:47:26.194,2.000,10.200,,,,Blue L1_2,,,,
+2,Path,Completed,2,3002,L1_1,2026-07-27 12:47:28.929,L2_1,2026-07-27 12:47:41.868,3.000,12.960,,,,Blue L2_0,,,,
+2,Path,Completed,3,3003,L2_1,2026-07-27 12:47:44.824,E0,2026-07-27 12:48:01.072,3.000,16.240,,,,Red E0,2026-07-27 12:48:01.324,,,
+2,Decision,Completed,1,Blue L1_2,,,,,,,2.560,2026-07-27 12:47:26.344,2026-07-27 12:47:28.929,,,,,
+2,Decision,Completed,2,Blue L2_0,,,,,,,2.760,2026-07-27 12:47:42.076,2026-07-27 12:47:44.824,,,,,
+2,Summary,Completed,,,,,,,,,,,,,,0.000,39.400,5.320
+3,Path,Completed,1,2001,S1,2026-07-27 12:48:11.554,L1_0,2026-07-27 12:48:25.492,6.000,13.960,,,,Blue L1_0,,,,
+3,Path,Completed,2,1002,L1_0,2026-07-27 12:48:29.274,L2_0,2026-07-27 12:48:36.974,1.000,7.540,,,,Red E0,2026-07-27 12:48:50.788,,,
+3,Decision,Completed,1,Blue L1_0,,,,,,,3.600,2026-07-27 12:48:25.708,2026-07-27 12:48:29.274,,,,,
+3,Decision,Completed,2,Blue L2_0,,,,,,,2.780,2026-07-27 12:48:37.015,2026-07-27 12:48:39.792,,,,,
+3,Summary,Completed,,,,,,,,,,,,,,0.000,21.500,6.380
